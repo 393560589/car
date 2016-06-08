@@ -1,0 +1,246 @@
+/*
+	iconfont图标和共有样式
+	LL-2016-4-12
+*/
+@font-face {font-family: "iconfont";
+  src: url('../js/module/iconfont/iconfont.eot?t=1460465207'); /* IE9*/
+  src: url('../js/module/iconfont/iconfont.eot?t=1460465207#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../js/module/iconfont/iconfont.woff?t=1460465207') format('woff'), /* chrome, firefox */
+  url('../js/module/iconfont/iconfont.ttf?t=1460465207') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../js/module/iconfont/iconfont.svg?t=1460465207#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.mid:after,
+.clearfix:after { content: ""; display: block; height: 0; clear: both; width: 0}
+.mid,
+.clearfix { *zoom: 1;zoom:1 }/*浮动起来*/
+html, body, div, span, applet, object, iframe,  h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,  fieldset, form, label, legend,  table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0; 
+  padding: 0;
+  outline: 0; 
+  font-size: 100%; 
+  vertical-align: baseline;
+  background: transparent;
+  font-family: "arial",sans-serif;
+}
+
+*{padding:0;margin:0;}
+body{
+	background-color: #f5f5f5;
+	/*background: url(../image/account-bg.jpg) repeat center top;*/
+}
+li{list-style: none;}
+a{text-decoration: none;}
+.right{float:right;}
+.left{float:left;}
+.clear{clear:both;}
+.border_none{border:none !important;}
+.font_red{color: #ee4e42 !important;}
+.font_blue{color:#328ad4 !important;}
+.hide{display:none !important;}
+.show{display:block !important;}
+
+/*头部样式*/
+/*header{width:100%;height: 116px;border-bottom: 4px #ee4e42 solid;margin-bottom: 27px;background-color: #fff;}
+header .head_tlt{max-width:1200px;height:100%;margin:0 auto;background: url(../image/headerimg_180x60.png)no-repeat center center;}
+header .head_tlt a i{font-size:30px;color:#ee4e42;}
+header .head_tlt .classification{float:left;margin-top: 35px;}
+header .head_tlt .account_btn{float:right;margin-top: 35px;}*/
+
+
+header{margin-bottom: 20px;border-bottom:2px solid #ee4e42;font-size: 14px}
+.container{width:1200px;margin:0 auto;height:100%}
+.container .balance{border:0px solid #d4d4d4;background-color: #ffffff;padding: 0 30px;width: 238px;padding-top:40px; height:100%;}
+.container .balance .personal{border-bottom: 1px dashed #E6E6E6;float:left;}
+.balance1{  width: 238px;  height: 35px;  font-size: 14px;  color: #666;  line-height: 35px;  margin-bottom:15px; }
+.balance1 span{  vertical-align: text-bottom;  line-height:35px;}
+.per_tlt{float:left;
+}
+.per_money{ font-size: 28px; color: #ee4e42; float: left; font-weight: bold; vertical-align:bottom; line-height: 35px;  height: 35px; }
+a:hover{cursor: pointer}
+.per_money span{color:#000000;}
+.container .balance .personal .pre_show{width:238px;height:25px;line-height: 25px;float:left; margin-bottom:15px;}
+.container .balance .personal .pre_show a{font-size:14px;border:none;color:#3fb4fe;}
+.assets{font-size: 14px;color:#666;line-height:35px; float:left;width: 238px; margin-top:15px;border-bottom: 1px dashed #E6E6E6;}
+.all_money{  font-size: 28px;  color: #333;  float: left;  font-weight: bold;  }
+.assets p{margin:0; line-height:35px;}
+.assets .ass_tlt{margin-top: 0px;}
+.assets .ass_money{color:#ee4e42;}
+
+.assets .ass_btn{ margin-bottom:10px; }
+.assets .ass_btn a{color:#3fb4fe;}
+.assets_way{ float:left; width:100%; margin-bottom:30px;}
+.assets_way ul li a{color:#666; }
+.assets_way ul{padding-bottom: 20px; font-size:14px;}
+.assets_way ul li{line-height: 55px;border-bottom: 1px dashed #e6e6e6;margin-bottom: 2px}
+.assets_way ul li a span{color:#ee4e42;}
+.assets_way ul li a span i{margin-left: 10px;color:#999;}
+.assets_way p{color:#666;line-height: 34px;}
+.assets_way p i{font-size: 14px;color: #ee4e42;margin-right: 12px;}
+.feedback{ height:24px; line-height:24px;position:relative;bottom: 25px;}
+.feedback .iconfont{ color:#ee4e42; float:left;font-size: 24px;}
+.feedback a{font-size: 14px;color: #666; float:left;}
+.text-center{text-align: center;margin-bottom: 35px;}
+.text-center a{font-size: 14px;color: #666;}
+
+
+.balance .personal .per_btn{width:238px; float:left; margin-bottom:15px;}
+.container .balance .personal .per_btn a{font-size:16px;border:none;color:#ffffff;}
+.balance .personal .per_btn .balan_charge{float: left;border-radius: 3px;background: #ee4e42;width: 95px;height: 35px;line-height: 35px;text-align: center;}
+.balance .personal .per_btn .balan_wals{float: left;border-radius: 3px;background: #3fb4fe;margin-left: 26px;width: 95px;height: 35px;line-height: 35px;text-align: center;}
+
+/*底部样式*/
+footer{font-size: 14px;  margin-top: 60px;}
+
+
+/*实名认证样式*/
+.authok{font-size: 18px;color:#328ad4;}
+
+/*交易密码设置成功*/
+.success>p{color:#666 !important;font-size: 24px !important;line-height: 24px !important;font-weight: bold;margin: 30px 0 10px 0 !important;}
+.success p i{color: #ee4e42;font-size: 25px;margin-right: 18px;}
+.success div{font-size: 16px;text-indent: 40px;}
+.success div a{margin: 0 10px;}
+
+/*反馈意见或建议弹窗样式*/
+.pro{height: 100%;margin:0 34px;}
+.pro .pro_head{color:#404040;font-size: 18px;line-height: 30px;padding: 25px 0 10px 0;}
+.pro .pro_area textarea{width:100%;height: 160px;font-size: 14px;line-height: 30px;color:#868686;text-indent: 15px;}
+#pro_yes{width:109px;height: 37px;background: #999999;color:#ffffff;font-size: 24px;line-height: 37px;text-align: center;display: inline-block;border-radius: 3px;margin-top: 20px;}
+.pro_yes{background: #ee4e42 !important;color:#ffffff !important;}
+
+/*修改昵称成功*/
+.nickname .nick_ok p:first-child{margin: 80px 0 0;font-size: 26px;color: #161616;}
+.nickname .nick_ok p:first-child i{font-size: 30px;color: #ee4e42;margin-right: 17px;}
+.nickname .nick_txt p{font-size: 18px;line-height: 30px;color: #404040;text-indent: 52px;margin: 30px 0;}
+.nickname .nick_btn p{font-size: 18px;line-height: 30px;color: #404040;text-indent: 42px;margin: 30px 0;}
+.nickname .nick_btn p a{color:#ee4e42;margin: 0 10px;}
+
+
+/*账户内页右边内容*/
+.container{zoom:1}
+.container:after{content:"."; display:block; height:0; visibility:hidden; clear:both;}
+.container .profit{width: 873px; float:right;}
+.container .profit .navigation{line-height: 45px;background: #ffffff;margin-bottom: 20px; font-size:14px;}
+.container .profit .navigation a{color:#ee4e42;}
+.container .profit .navigation a.my_age{color:#666;margin-left: 27px;margin-right: 15px;}
+.container .profit .navigation i{margin-right: 15px; color:#999;}
+.con_bg{background: #ffffff;padding: 30px 50px 30px 50px;min-height: 802px;overflow: hidden}
+.con_bg>h3{color:#333;font-size: 20px;line-height: 30px;margin: 0px 0 20px; font-weight:bold;}
+.con_bg h3{color:#333;font-size: 20px;line-height: 30px;margin: 0px 0 20px; font-weight:bold;}
+.errorbox{width: 100%;height: 30px;line-height: 30px;text-indent: 20px;top:45px;color:#ff0000; font-size:12px;}
+.con_bg input{text-indent: 20px;line-height: 43px;height: 43px;border:1px solid #e6e6e6;width: 100%;font-size: 14px;border-radius: 3px;}
+
+.con_bg .errorbox{position: absolute;width: 100%;height: 30px;top:45px;line-height: 30px;text-indent: 20px!important;color:#ee4e42; font-size:12px;}
+
+.con_bg label.error{position: absolute;top: 0px;left: 0px!important;color: #ee4e42; font-size:12px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

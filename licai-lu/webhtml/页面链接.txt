@@ -1,0 +1,46 @@
+
+setting.html      账户设置
+withdrawals.html  提现
+recharge.html     在线充值
+account.html      个人页面
+realname.html     实名认证
+
+phone.html        修改手机号码
+signin.html       修改登录密码
+transactionPwd.html找回交易密码
+address.html      我的地址
+record.html       交易记录
+
+cashgift.html     我的红包 （ok）
+contacts.html     人脉收益
+integralmall.html 积分商城  （ok）
+mybankcard.html   我的银行卡 (ok)
+invitation.html   邀请好友  （ok） 复制链接待完善
+
+calendar.html     账单日历
+welfare.html      福利中心  （ok）
+activity.html     活动大厅 （ok）
+redeem.html       赎回
+nickname.html     修改昵称
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

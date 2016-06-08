@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>登录</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link href="../css/base.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+	<link href="../css/login_new.css" rel="stylesheet">
+</head>
+
+<body>
+
+<main class="login-main">
+	<div class="mid">
+		<div class="pull-left login-slider">
+			<ul>
+				<li>
+					<img src="../images/temp/login-slider1.png" alt="">
+					<div class="tit">
+						<h3>平台数据1</h3>
+						<p>杭州市政府权力支持</p>
+					</div>
+				</li>
+				<li>
+					<img src="../images/temp/login-slider1.png" alt="">
+					<div class="tit">
+						<h3>平台数据2</h3>
+						<p>杭州市政府权力支持</p>
+					</div>
+				</li>
+				<li>
+					<img src="../images/temp/login-slider1.png" alt="">
+					<div class="tit">
+						<h3>平台数据3</h3>
+						<p>杭州市政府权力支持</p>
+					</div>
+				</li>
+			</ul>
+			<div class="ctrl-btn">
+				<a href="javascript:;" class="prev"></a>
+				<a href="javascript:;" class="next"></a>
+			</div>
+		</div>
+		<div class="pull-right login-con">
+			<div class="tit">账号登录 <a href="../Login/get_pwd1.html" class="pull-right"><i class="iconsprites"></i> 忘记密码？</a></div>
+			<form action="" class="m-form">
+				<div class="form-group tips-wrap">
+					<i class="iconsprites"></i>请妥善保管好您的密码，保障账户安全
+				</div>
+				<div class="form-group username-wrap">
+					<i class="iconsprites"></i>
+					<input type="text" name="" id="" placeholder="用户名">
+				</div>
+				<div class="form-group pwd-wrap">
+					<i class="iconsprites"></i>
+					<input type="password" name="" id="" placeholder="密码">
+				</div>
+				<div class="form-group valicode-wrap">
+					<i class="iconsprites"></i>
+					<input type="text" name="" id="" placeholder="验证码">
+					<img src="../images/temp/vali-code.png" alt="" class="get_valicode">
+				</div>
+				<!-- <div class="form-group checkbox-wrap auto-login">
+					<input type="checkbox" name="" id="">
+					自动登录<a href="" class="pull-right">忘记密码？</a>
+				</div> -->
+				<div class="form-group btn-wrap">
+					<a class="btn btn-primary btn-square">登 录</a>
+				</div>
+				<div class="form-group link-wrap">
+					没有账号？<a href="../Login/investsign.html">免费注册</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</main>
+
+
+<script src="../js/jquery-1.12.3/jquery-1.12.3.js"></script>
+<script src="../js/jquery.SuperSlide.2.1.1/jquery.SuperSlide.2.1.1.js"></script>
+<script>
+	jQuery(".login-slider").slide({
+		// titCell:".hd ul",
+		mainCell:"ul",
+		effect:"fold",
+		autoPlay:true,
+	});
+</script>
+</body>
+
+</html>
