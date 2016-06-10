@@ -969,11 +969,7 @@
 			text-align: left;
 			padding-left: 100px;
 			.btn{
-				display: block;
-				background: #f20d0d;
-				border-radius: 5px;
 				width: 300px;
-				color: white;
 				margin:20px 0 25px 0;
 			}
 		}
@@ -1006,7 +1002,7 @@
 				border-radius: 3px;
 			}
 		}
-		.btn{margin-top: 20px;  width: 300px;  background: #f20d0d;  border-radius: 3px;  color: #fff;  }
+		.btn{margin-top: 20px;  width: 300px;}
 		margin-top: 70px;
 		height: 385px;
 		text-align: left;
@@ -1028,7 +1024,7 @@
 }
 //注册
 .sxtlist{
-	padding-bottom: 80px;background-color: #fff;
+	padding-bottom: 80px;
 	.nav_a{margin:26px auto 0 ;width: 441px;
 		a{display: block;float: left;border: 1px solid #f1f1f1;border-radius:2px;margin-right: 8px;width: 26px;line-height: 26px;text-align: center}
 	}
@@ -1080,21 +1076,155 @@
 		}
 		li:nth-last-of-type(1){margin-right: 0}
 	}
-	.sxt-introduce{background: #fff;
+	.sxt-introduce{background: #fff;padding:0 0 60px;
+		p.flower{position: relative;color: #333;}
+		p.flower:after{position: absolute;content: '';height: 14px;width: 4px;background:#e94d3d;left: -20px;top: 3px}
+
+		.classify{border:1px solid #f1f1f1;
+			.nav{float:left;padding: 27px 0 17px;margin-right: 58px;color: #333;font-size: 16px;cursor: pointer;}
+			.nav:nth-of-type(4){margin-right: 0}
+			.identifier{position: relative}
+			.identifier:after{position: absolute;content: '';width: 120%;height: 2px;background: #e94d3d;left: -10%;bottom: 0}
+		}//分类
+		.listrecord{
+			.m-table{border:0;outline: none;
+				tr{td{border: 0}
+					.iconfont{color:#0cb965}
+				}
+				tr:nth-of-type(odd){background-color: #f7fbfd}
+				tr.title{background-color: #e6f3fb}
+			}
+		}//表格
+		.direction-intro,.direction-pic{li{float: left;margin-left: 58px}}
+		.direction-pic{background-position:left bottom;height: 16px;margin-top: 6px}
+		.listpro{margin-top: 38px;font-size: 14px;color: #999;padding:0 20px;
+			p{color: #333;font-weight: bolder;margin-bottom: 20px}
+			h4{font-weight: lighter;padding-left: 20px;}
+		}
+	}
+}//时息通
+.gxblist{
+	padding-bottom: 80px;
+	.nav_a{margin:26px auto 0 ;width: 441px;
+		a{display: block;float: left;border: 1px solid #f1f1f1;border-radius:2px;margin-right: 8px;width: 26px;line-height: 26px;text-align: center}
+	}
+	.red{color:#e94d3d}
+	.banner_gxb{
+		padding:25px 0;background-color: #ff6f67;
+		.g_detail,.g_residue{background-color: #fff;height: 380px;box-sizing: border-box;}
+		.g_detail{
+			width: 836px;
+			.g_title{padding: 0 36px;border-bottom:1px solid #f1f1f1;
+				li{line-height: 65px;}
+				h2{font-size: 24px;color: #333;font-weight: lighter;margin: 0;
+					span,b{font-size: 14px;color: #999}
+					span{margin: 0 24px 0 8px}
+					b{font-size:12px;padding: 5px 6px;background: #fc8e36;border-radius: 3px;color: #fff;font-weight: lighter;}
+				}
+				a{display: block;}
+			}//
+			.progress_warp{
+				padding: 40px 36px 47px;border-bottom:1px dashed #f1f1f1 ;
+				li{
+					color:#666;display:inline-block;width: 32%;box-sizing: border-box;border-right: 1px solid #f1f1f1;text-align: center;font-size: 14px;
+					span.red{color:#ee4e42; }
+					span.bigger{font-size: 30px;}
+					span.big{font-size: 20px}
+				}
+				li:nth-last-of-type(1){border:0}//
+				.progress{width: 650px;margin: 0 auto;line-height: 20px;margin-top: 30px;
+					.wrap{width: 600px;height: 6px;background: #f1f1f1;display: inline-block;vertical-align: middle;border-radius: 120px;overflow: hidden;
+						span{display:block;height: 100%;width: 64%;background: #3fb4fe;}
+					}
+					.g_num{font-size: 20px; color: #666; }
+				}
+			}//
+			.g_des{padding: 20px 36px;line-height: 35px;color: #666;
+				li{width: 33%}
+			}//
+		}
+		.g_residue{
+			width: 343px;
+			.g_title,.g_count{padding: 0 32px;}
+			.g_title{
+				line-height: 56px;border-bottom: 1px solid #f1f1f1;color: #666;font-weight: bold;
+			}
+			.g_count{
+				.text-item{line-height: 44px}
+				.takeMoney{width: 280px;height: 38px;border-radius: 5px;border:1px solid #f1f1f1;overflow: hidden;
+					input{display:block;float: left;outline: none;border: 0;}
+					input[type=button]{text-align: center;height: 100%;width: 8%;}
+					.takenum{line-height:38px; width: 84%;padding-left: 10px;box-sizing: border-box}
+				}//增加减少
+				.select{height: 38px;
+					select{display: block;width: 100%;height:38px;line-height: 40px;border: 1px dashed #f1f1f1;}
+				}//选择框
+				.pullpwd{
+					input{display: block;line-height: 38px; width: 100%;border-radius: 3px;border:1px solid #f1f1f1;padding-left:10px; }
+				}//交易密码
+				a.btn{margin-top:10px;width: 100%;font-size: 16px;}
+			}
+		}
+	}//广告
+
+	.sxt-introduce{background: #fff;padding:0 0 60px;
+		p.flower{position: relative;color: #333;}
+		p.flower:after{position: absolute;content: '';height: 14px;width: 4px;background:#e94d3d;left: -20px;top: 3px}
+
 		.classify{border:1px solid #f1f1f1;
 			.nav{float:left;padding: 27px 0 17px;margin-right: 58px;color: #333;font-size: 16px;cursor: pointer;}
 			.nav:nth-of-type(4){margin-right: 0}
 			.identifier{position: relative}
 			.identifier:after{position: absolute;content: '';width: 120%;height: 2px;background: #e94d3d;left: -10%;bottom: 0}
 		}
+		.product{
+			.g_des{li{width: 20%;line-height: 40px}}
+			.descirbe{margin-top: 20px;font-weight: lighter;}
+		}
+		.safety{
+			.photo{width: 1190px;overflow: hidden;
+				ul{position: relative;
+					li{width: 255px;height: 205px;overflow:hidden;background: #666;float: left;margin-left: 34px;
+						img{width: 100%}}
+					/*li:nth-of-type(1){margin-left: 0}*/
+					a.arrow{position: absolute;border-radius: 50%;width: 35px;line-height: 35px;background: #fc8e36;top: 40%;color: #fff;};
+					a.arrowleft{left: 10px}
+					a.arrowright{right: 10px}
+				}
+			}
+		}
+
+		.direction{
+			.descirbe{font-weight: lighter;};
+			.g_des{li{width: 25%;text-align: left;font-weight: lighter;
+				.iconbox{width: 50px;height: 50px;margin-right: 10px;border:1px solid #f1f1f1;border-radius: 50%;text-align: center;color: #e94d3d;
+					.iconfont{font-size: 30px;line-height: 50px;}
+				}
+
+				.project{padding: 8px 0;
+					h4{padding:0;font-size: 16px;color: #666;}
+					p{font-size:12px;}
+				}
+
+			}}
+		}//
+		.listrecord{
+			.m-table{border:0;outline: none;
+				tr{td{border: 0}
+					.iconfont{color:#0cb965}
+				}
+				tr:nth-of-type(odd){background-color: #f7fbfd}
+				tr.title{background-color: #e6f3fb}
+			}
+		}//表格
 		.direction-intro,.direction-pic{li{float: left;margin-left: 58px}}
 		.direction-pic{background-position:left bottom;height: 16px;margin-top: 6px}
-		.listpro{margin-top: 38px;font-size: 14px;color: #999;
-			p{color: #333;font-weight: bolder;margin-bottom: 20px}
+		.listpro{margin-top: 38px;font-size: 14px;color: #999;padding:0 20px;
+			p{font-weight: bolder;margin-bottom: 20px}
 			h4{font-weight: lighter;padding-left: 20px;}
 		}
 	}
-}//时息通
+}//固息宝详情页
 .pay{
 	.error,
 	.suc{text-align: center;padding: 120px 0 186px;color: #999;
@@ -1157,7 +1287,7 @@
 			.bankC{font-size: 12px;
 				.toops{margin-left: 20px;color: #b6b6b6;}
 			}
-			.btn{display:block;text-align:center;line-height:48px;width:220px;background-color: #e94d3d;border-radius: 2px;color: #fff}
+			.btn{line-height:48px;width:220px;}
 			.bank{display:inline-block;height: 22px;width: 22px;background: red;margin: 0 5px 0 10px;vertical-align: middle}
 		}
 	}

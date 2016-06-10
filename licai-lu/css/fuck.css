@@ -1021,11 +1021,7 @@
   padding-left: 100px;
 }
 .investsign .form-panel .sign_now .btn {
-  display: block;
-  background: #f20d0d;
-  border-radius: 5px;
   width: 300px;
-  color: white;
   margin: 20px 0 25px 0;
 }
 .investsign .forcode {
@@ -1064,9 +1060,6 @@
 .investsign .forcode .btn {
   margin-top: 20px;
   width: 300px;
-  background: #f20d0d;
-  border-radius: 3px;
-  color: #fff;
 }
 .investsign .success .contact {
   padding: 90px 0 330px 0;
@@ -1117,7 +1110,6 @@
 }
 .sxtlist {
   padding-bottom: 80px;
-  background-color: #fff;
 }
 .sxtlist .nav_a {
   margin: 26px auto 0 ;
@@ -1274,6 +1266,20 @@
 }
 .sxtlist .sxt-introduce {
   background: #fff;
+  padding: 0 0 60px;
+}
+.sxtlist .sxt-introduce p.flower {
+  position: relative;
+  color: #333;
+}
+.sxtlist .sxt-introduce p.flower:after {
+  position: absolute;
+  content: '';
+  height: 14px;
+  width: 4px;
+  background: #e94d3d;
+  left: -20px;
+  top: 3px;
 }
 .sxtlist .sxt-introduce .classify {
   border: 1px solid #f1f1f1;
@@ -1301,6 +1307,22 @@
   left: -10%;
   bottom: 0;
 }
+.sxtlist .sxt-introduce .listrecord .m-table {
+  border: 0;
+  outline: none;
+}
+.sxtlist .sxt-introduce .listrecord .m-table tr td {
+  border: 0;
+}
+.sxtlist .sxt-introduce .listrecord .m-table tr .iconfont {
+  color: #0cb965;
+}
+.sxtlist .sxt-introduce .listrecord .m-table tr:nth-of-type(odd) {
+  background-color: #f7fbfd;
+}
+.sxtlist .sxt-introduce .listrecord .m-table tr.title {
+  background-color: #e6f3fb;
+}
 .sxtlist .sxt-introduce .direction-intro li,
 .sxtlist .sxt-introduce .direction-pic li {
   float: left;
@@ -1315,6 +1337,7 @@
   margin-top: 38px;
   font-size: 14px;
   color: #999;
+  padding: 0 20px;
 }
 .sxtlist .sxt-introduce .listpro p {
   color: #333;
@@ -1322,6 +1345,349 @@
   margin-bottom: 20px;
 }
 .sxtlist .sxt-introduce .listpro h4 {
+  font-weight: lighter;
+  padding-left: 20px;
+}
+.gxblist {
+  padding-bottom: 80px;
+}
+.gxblist .nav_a {
+  margin: 26px auto 0 ;
+  width: 441px;
+}
+.gxblist .nav_a a {
+  display: block;
+  float: left;
+  border: 1px solid #f1f1f1;
+  border-radius: 2px;
+  margin-right: 8px;
+  width: 26px;
+  line-height: 26px;
+  text-align: center;
+}
+.gxblist .red {
+  color: #e94d3d;
+}
+.gxblist .banner_gxb {
+  padding: 25px 0;
+  background-color: #ff6f67;
+}
+.gxblist .banner_gxb .g_detail,
+.gxblist .banner_gxb .g_residue {
+  background-color: #fff;
+  height: 380px;
+  box-sizing: border-box;
+}
+.gxblist .banner_gxb .g_detail {
+  width: 836px;
+}
+.gxblist .banner_gxb .g_detail .g_title {
+  padding: 0 36px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.gxblist .banner_gxb .g_detail .g_title li {
+  line-height: 65px;
+}
+.gxblist .banner_gxb .g_detail .g_title h2 {
+  font-size: 24px;
+  color: #333;
+  font-weight: lighter;
+  margin: 0;
+}
+.gxblist .banner_gxb .g_detail .g_title h2 span,
+.gxblist .banner_gxb .g_detail .g_title h2 b {
+  font-size: 14px;
+  color: #999999;
+}
+.gxblist .banner_gxb .g_detail .g_title h2 span {
+  margin: 0 24px 0 8px;
+}
+.gxblist .banner_gxb .g_detail .g_title h2 b {
+  font-size: 12px;
+  padding: 5px 6px;
+  background: #fc8e36;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: lighter;
+}
+.gxblist .banner_gxb .g_detail .g_title a {
+  display: block;
+}
+.gxblist .banner_gxb .g_detail .progress_warp {
+  padding: 40px 36px 47px;
+  border-bottom: 1px dashed #f1f1f1 ;
+}
+.gxblist .banner_gxb .g_detail .progress_warp li {
+  color: #666;
+  display: inline-block;
+  width: 32%;
+  box-sizing: border-box;
+  border-right: 1px solid #f1f1f1;
+  text-align: center;
+  font-size: 14px;
+}
+.gxblist .banner_gxb .g_detail .progress_warp li span.red {
+  color: #ee4e42;
+}
+.gxblist .banner_gxb .g_detail .progress_warp li span.bigger {
+  font-size: 30px;
+}
+.gxblist .banner_gxb .g_detail .progress_warp li span.big {
+  font-size: 20px;
+}
+.gxblist .banner_gxb .g_detail .progress_warp li:nth-last-of-type(1) {
+  border: 0;
+}
+.gxblist .banner_gxb .g_detail .progress_warp .progress {
+  width: 650px;
+  margin: 0 auto;
+  line-height: 20px;
+  margin-top: 30px;
+}
+.gxblist .banner_gxb .g_detail .progress_warp .progress .wrap {
+  width: 600px;
+  height: 6px;
+  background: #f1f1f1;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 120px;
+  overflow: hidden;
+}
+.gxblist .banner_gxb .g_detail .progress_warp .progress .wrap span {
+  display: block;
+  height: 100%;
+  width: 64%;
+  background: #3fb4fe;
+}
+.gxblist .banner_gxb .g_detail .progress_warp .progress .g_num {
+  font-size: 20px;
+  color: #666;
+}
+.gxblist .banner_gxb .g_detail .g_des {
+  padding: 20px 36px;
+  line-height: 35px;
+  color: #666;
+}
+.gxblist .banner_gxb .g_detail .g_des li {
+  width: 33%;
+}
+.gxblist .banner_gxb .g_residue {
+  width: 343px;
+}
+.gxblist .banner_gxb .g_residue .g_title,
+.gxblist .banner_gxb .g_residue .g_count {
+  padding: 0 32px;
+}
+.gxblist .banner_gxb .g_residue .g_title {
+  line-height: 56px;
+  border-bottom: 1px solid #f1f1f1;
+  color: #666;
+  font-weight: bold;
+}
+.gxblist .banner_gxb .g_residue .g_count .text-item {
+  line-height: 44px;
+}
+.gxblist .banner_gxb .g_residue .g_count .takeMoney {
+  width: 280px;
+  height: 38px;
+  border-radius: 5px;
+  border: 1px solid #f1f1f1;
+  overflow: hidden;
+}
+.gxblist .banner_gxb .g_residue .g_count .takeMoney input {
+  display: block;
+  float: left;
+  outline: none;
+  border: 0;
+}
+.gxblist .banner_gxb .g_residue .g_count .takeMoney input[type=button] {
+  text-align: center;
+  height: 100%;
+  width: 8%;
+}
+.gxblist .banner_gxb .g_residue .g_count .takeMoney .takenum {
+  line-height: 38px;
+  width: 84%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.gxblist .banner_gxb .g_residue .g_count .select {
+  height: 38px;
+}
+.gxblist .banner_gxb .g_residue .g_count .select select {
+  display: block;
+  width: 100%;
+  height: 38px;
+  line-height: 40px;
+  border: 1px dashed #f1f1f1;
+}
+.gxblist .banner_gxb .g_residue .g_count .pullpwd input {
+  display: block;
+  line-height: 38px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #f1f1f1;
+  padding-left: 10px;
+}
+.gxblist .banner_gxb .g_residue .g_count a.btn {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+.gxblist .sxt-introduce {
+  background: #fff;
+  padding: 0 0 60px;
+}
+.gxblist .sxt-introduce p.flower {
+  position: relative;
+  color: #333;
+}
+.gxblist .sxt-introduce p.flower:after {
+  position: absolute;
+  content: '';
+  height: 14px;
+  width: 4px;
+  background: #e94d3d;
+  left: -20px;
+  top: 3px;
+}
+.gxblist .sxt-introduce .classify {
+  border: 1px solid #f1f1f1;
+}
+.gxblist .sxt-introduce .classify .nav {
+  float: left;
+  padding: 27px 0 17px;
+  margin-right: 58px;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+}
+.gxblist .sxt-introduce .classify .nav:nth-of-type(4) {
+  margin-right: 0;
+}
+.gxblist .sxt-introduce .classify .identifier {
+  position: relative;
+}
+.gxblist .sxt-introduce .classify .identifier:after {
+  position: absolute;
+  content: '';
+  width: 120%;
+  height: 2px;
+  background: #e94d3d;
+  left: -10%;
+  bottom: 0;
+}
+.gxblist .sxt-introduce .product .g_des li {
+  width: 20%;
+  line-height: 40px;
+}
+.gxblist .sxt-introduce .product .descirbe {
+  margin-top: 20px;
+  font-weight: lighter;
+}
+.gxblist .sxt-introduce .safety .photo {
+  width: 1190px;
+  overflow: hidden;
+}
+.gxblist .sxt-introduce .safety .photo ul {
+  position: relative;
+  /*li:nth-of-type(1){margin-left: 0}*/
+}
+.gxblist .sxt-introduce .safety .photo ul li {
+  width: 255px;
+  height: 205px;
+  overflow: hidden;
+  background: #666;
+  float: left;
+  margin-left: 34px;
+}
+.gxblist .sxt-introduce .safety .photo ul li img {
+  width: 100%;
+}
+.gxblist .sxt-introduce .safety .photo ul a.arrow {
+  position: absolute;
+  border-radius: 50%;
+  width: 35px;
+  line-height: 35px;
+  background: #fc8e36;
+  top: 40%;
+  color: #fff;
+}
+.gxblist .sxt-introduce .safety .photo ul a.arrowleft {
+  left: 10px;
+}
+.gxblist .sxt-introduce .safety .photo ul a.arrowright {
+  right: 10px;
+}
+.gxblist .sxt-introduce .direction .descirbe {
+  font-weight: lighter;
+}
+.gxblist .sxt-introduce .direction .g_des li {
+  width: 25%;
+  text-align: left;
+  font-weight: lighter;
+}
+.gxblist .sxt-introduce .direction .g_des li .iconbox {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border: 1px solid #f1f1f1;
+  border-radius: 50%;
+  text-align: center;
+  color: #e94d3d;
+}
+.gxblist .sxt-introduce .direction .g_des li .iconbox .iconfont {
+  font-size: 30px;
+  line-height: 50px;
+}
+.gxblist .sxt-introduce .direction .g_des li .project {
+  padding: 8px 0;
+}
+.gxblist .sxt-introduce .direction .g_des li .project h4 {
+  padding: 0;
+  font-size: 16px;
+  color: #666;
+}
+.gxblist .sxt-introduce .direction .g_des li .project p {
+  font-size: 12px;
+}
+.gxblist .sxt-introduce .listrecord .m-table {
+  border: 0;
+  outline: none;
+}
+.gxblist .sxt-introduce .listrecord .m-table tr td {
+  border: 0;
+}
+.gxblist .sxt-introduce .listrecord .m-table tr .iconfont {
+  color: #0cb965;
+}
+.gxblist .sxt-introduce .listrecord .m-table tr:nth-of-type(odd) {
+  background-color: #f7fbfd;
+}
+.gxblist .sxt-introduce .listrecord .m-table tr.title {
+  background-color: #e6f3fb;
+}
+.gxblist .sxt-introduce .direction-intro li,
+.gxblist .sxt-introduce .direction-pic li {
+  float: left;
+  margin-left: 58px;
+}
+.gxblist .sxt-introduce .direction-pic {
+  background-position: left bottom;
+  height: 16px;
+  margin-top: 6px;
+}
+.gxblist .sxt-introduce .listpro {
+  margin-top: 38px;
+  font-size: 14px;
+  color: #999;
+  padding: 0 20px;
+}
+.gxblist .sxt-introduce .listpro p {
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.gxblist .sxt-introduce .listpro h4 {
   font-weight: lighter;
   padding-left: 20px;
 }
@@ -1514,13 +1880,8 @@
   color: #b6b6b6;
 }
 .pay .p_bank .foot .btn {
-  display: block;
-  text-align: center;
   line-height: 48px;
   width: 220px;
-  background-color: #e94d3d;
-  border-radius: 2px;
-  color: #ffffff;
 }
 .pay .p_bank .foot .bank {
   display: inline-block;
